@@ -1,3 +1,4 @@
+// speichert einkommende Daten in den Browserspeicher
 app.service('Task', function ($http) {
     return {
       loadTasks: function (day, callback) {

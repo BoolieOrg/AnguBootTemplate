@@ -1,0 +1,53 @@
+<html>
+  	<head>
+    	<title>Taskmanager</title>
+    	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    	<base href="/">
+    	<link rel="stylesheet" href="/library/bootstrap/bootstrap.min.css">
+    	<link rel="stylesheet" href="/library/angularUI/ui-bootstrap-csp.css">
+  	</head>
+	<body ng-app="Taskmanager">
+
+		<nav class="navbar navbar-default">
+	        <div class="container-fluid">
+	          <div class="navbar-header">
+	            <button type="button" class="navbar-toggle collapsed">
+	              <span class="sr-only">Toggle navigation</span>
+	              <span class="icon-bar"></span>
+	              <span class="icon-bar"></span>
+	              <span class="icon-bar"></span>
+	            </button>
+	            <a class="navbar-brand" href="#/">Taskmanager</a>
+	          </div>
+	          <div id="navbar" class="navbar-collapse collapse">
+	            <ul class="nav navbar-nav">
+	              <li><a href="#/day/0">Montag</a></li>
+	              <li><a href="#/day/1">Dienstag</a></li>
+	              <li><a href="#/day/2">Mittwoch</a></li>
+	              <li><a href="#/day/3">Donnerstag</a></li>
+	              <li><a href="#/day/4">Freitag</a></li>
+	              <li><a href="#/day/5">Sammstag</a></li>
+	              <li><a href="#/day/6">Sonntag</a></li>
+	            </ul>
+	          </div>
+	        </div>
+	    </nav>
+	    <div class="container">
+
+      		<div ng-view></div>
+
+		</div>
+
+      	<!-- externe Resourcen -->
+    	<script src="/library/angular/angular.min.js"></script>
+    	<script src="/library/angular/angular-route.min.js"></script>
+    	<script src="/library/angular/angular-animate.min.js"></script>
+    	<script src="/library/angularUI/ui-bootstrap.js"></script>
+    	<script src="/library/angularUI/ui-bootstrap-tpls.js"></script>
+
+      	<!-- App -->
+    	<script src="/app/main.js"></script>
+    	<script src="/app/controller/Tasklist.js"></script>
+    	<script src="/app/service/Task.js"></script>
+	</body>
+</html>

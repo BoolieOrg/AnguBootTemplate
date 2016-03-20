@@ -42,3 +42,8 @@ run `grunt`
 `cp node_modules/angular-ui-bootstrap/dist/ui-bootstrap-csp.css library/angularUI/ui-bootstrap-csp.css`
 
 `cp node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js library/angularUI/ui-bootstrap-tpls.js`
+
+## install / start Server
+`npm install http-server -g`
+
+`http-server`

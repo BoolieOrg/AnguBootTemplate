@@ -1,0 +1,23 @@
+{
+  "name": "Taskmanager",
+  "description": "Manage your Tasks for the Week.",
+  "homepage": "http://boolie.org",
+  "author": {
+    "name": "LoopLogic"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoolieOrg/Taskmanager.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "angular": "*",
+    "angular-route": "*",
+    "angular-animate": "*",
+    "bootstrap": "*",
+    "angular-ui-bootstrap": "*"
+  },
+  "engines": {
+    "node": ">=0.10.1"
+  }
+}

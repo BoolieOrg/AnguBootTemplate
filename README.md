@@ -18,7 +18,7 @@ change the Font Path:
 
 l79: @icon-font-path:          "../fonts/"; to @icon-font-path:          "../../font/icon/";
 
-run `grunt`
+`grunt`
 
 ### Copy the Files to Projektdir
 `cp node_modules/angular/angular.min.js library/angular/angular.min.js`

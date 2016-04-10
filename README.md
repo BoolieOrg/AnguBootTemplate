@@ -1,10 +1,12 @@
 # Taskmanager
+Demo: http://boolie.org/sandbox/durchstarten-mit-angularjs-bootstrap/#/
+german Tutorial: http://boolie.org/durchstarten-mit-angularjs-bootstrap
 
 ## install Dependencies
 `npm install`
 
 ## modify Boostrap
-`cd /node_modules/boostrap/`
+`cd node_modules/boostrap/`
 
 `npm install`
 
@@ -14,7 +16,7 @@ change the Font Path:
 
 /node_modules/boostrap/less/variables.less :
 
-l71: @icon-font-path:          "../fonts/"; to @icon-font-path:          "../../font/icon/";
+l79: @icon-font-path:          "../fonts/"; to @icon-font-path:          "../../font/icon/";
 
 run `grunt`
 

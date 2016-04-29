@@ -1,5 +1,6 @@
 # Taskmanager
 Demo: http://boolie.org/sandbox/durchstarten-mit-angularjs-bootstrap/#/
+
 german Tutorial: http://boolie.org/durchstarten-mit-angularjs-bootstrap
 
 ## install Dependencies
@@ -18,9 +19,9 @@ change the Font Path:
 
 l79: @icon-font-path:          "../fonts/"; to @icon-font-path:          "../../font/icon/";
 
-run `grunt`
+`grunt`
 
-### Copy the Files to Projektdir
+## Copy the Files to Projektdir
 `cp node_modules/angular/angular.min.js library/angular/angular.min.js`
 
 `cp node_modules/angular-route/angular-route.min.js library/angular/angular-route.min.js`

@@ -1,25 +1,25 @@
 <h2>{{day}}</h2>
 <div class="panel panel-default">
-	<div class="panel-heading">
-		<input type="text" class="form-control" placeholder="Name" ng-model="taskName">
-	</div>
-	<div class="panel-body">
-		<div class="form-group">
-			<input type="text" class="form-control" placeholder="Text" ng-model="taskText">
-		</div>
-		<button type="button" class="btn btn-success pull-right" ng-click="addTask()">erstellen</button>
-	</div>
+  <div class="panel-heading">
+    <input class="form-control" placeholder="Aufgabe" ng-model="taskName" type="text">
+  </div>
+  <div class="panel-body">
+    <div class="form-group">
+      <input class="form-control" placeholder="Text" ng-model="taskText" type="text">
+    </div>
+    <button type="button" class="btn btn-success pull-right" ng-click="addTask()">erstellen</button>
+  </div>
 </div>
 <div ng-repeat="task in tasks track by $index">
-	<div class="panel panel-default" id="">
-		<div class="panel-heading">{{task.name}}</div>
-		<div class="panel-body">
-			{{task.text}}
-			<form class="pull-right" data-example-id="btn-tags">
-				<button type="button" class="btn btn-danger" ng-click="deleteTask($index)">löschen</button>
-				<button type="button" class="btn btn-primary" ng-show="task.status" ng-click="changeStatusTask($index)">abgeschlossen</button>
-				<button type="button" class="btn btn-default" ng-show="!task.status" ng-click="changeStatusTask($index)">offen</button>
-			</form>
-		</div>
-	</div>
+  <div class="panel panel-default">
+    <div class="panel-heading">{{task.name}}</div>
+    <div class="panel-body">
+      {{task.text}}
+      <form class="pull-right" data-example-id="btn-tags">
+        <button type="button" class="btn btn-danger" ng-click="deleteTask($index)">löschen</button>
+        <button type="button" class="btn btn-primary" ng-show="task.status" ng-click="changeStatusTask($index)">abgeschlossen</button>
+        <button type="button" class="btn btn-default" ng-show="!task.status" ng-click="changeStatusTask($index)">offen</button>
+      </form>
+    </div>
+  </div>
 </div>

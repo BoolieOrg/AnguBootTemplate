@@ -30,6 +30,8 @@ l79: @icon-font-path:          "../fonts/"; to @icon-font-path:          "../../
 
 `cp node_modules/bootstrap/dist/css/bootstrap.min.css library/bootstrap/bootstrap.min.css`
 
+`cp node_modules/bootstrap/dist/js/bootstrap.min.js library/bootstrap/bootstrap.min.js`
+
 `cp node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot font/icon/glyphicons-halflings-regular.eot`
 
 `cp node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.svg font/icon/glyphicons-halflings-regular.svg`
